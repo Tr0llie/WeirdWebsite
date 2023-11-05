@@ -66,11 +66,31 @@
             padding: 10px 20px;
             cursor: pointer;
         }
+        .discord-tag {
+            color: #fff;
+            font-size: 18px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .discord-logo {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url('https://raw.githubusercontent.com/Tr0llie/WeirdWebsite/main/discord%20logo.png') no-repeat center center;
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="profile-picture"></div>
+        <hr class="divider">
+        <div class="section">Socials</div>
+        <p class="sub-section">
+            <span class="discord-logo"></span>
+            <span class="discord-tag">My Discord Tag: LOL</span>
+            
+        </p>
         <hr class="divider">
         <div class="section">About me</div>
         <p class="sub-section">Hi, I'm Tr0ll! I'm a junior backend dev guy who does crazy things. <br> Don't ask me how old I am or I will murder you.
@@ -88,7 +108,7 @@
             <br> <i> <b>PS: Most of my projects got sold to companies, third parties, or local business owners</b></i>
         </p>
         <hr class="divider">
-        <div class="section">Send Tr0ll a Message</div>
+        <div class="section">Send Tr0ll a Mail</div>
         <form id="contactForm">
             <div>
                 <label for="name">Name:</label>
@@ -99,7 +119,7 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
             </div>
             <div>
-                <label for="email">Email (optional):</label>
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
             <button type="button" id="sendButton">Send</button>
