@@ -1,1 +1,3 @@
 # WeirdWebsite
+
+## I USE THIS FOR ALL PURPOSELOKL
